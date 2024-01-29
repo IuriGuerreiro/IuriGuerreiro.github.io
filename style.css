@@ -20,7 +20,9 @@ body{
     display: flex;
 
 }
-
+.max-size{
+    max-width:37,5rem;
+}
 a {
     font-family: 'Lato', sans-serif;
     text-decoration: none;
