@@ -14,6 +14,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: var(--black);
 }
 .navMenu {
     display: flex;
@@ -75,7 +76,7 @@ h6 {
     margin: 0;
     font-size: 1.25rem;
 }
-a {
+.NavSocialItem {
     text-decoration: none;
     color: var(--TextColor);
 }
@@ -178,6 +179,7 @@ path {
 }
 
 .contentCentered{
+    width:100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -221,7 +223,6 @@ path {
 #scroll {
     align-self: start;
     grid-area: scroll;
-    overflow-y: scroll;
     position: sticky;
     top: calc(6.25rem - 0.5rem);
     /* Add this line */
@@ -231,7 +232,6 @@ path {
 }
 #scrollable{
     grid-area: scrollable;
-    overflow-y: scroll;
     height: 100%;
 }
 
